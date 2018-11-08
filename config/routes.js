@@ -43,7 +43,11 @@ module.exports.routes = {
   //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
-
+  'POST /planetas/create':       'PlanetasController/create',
+  'PUT /planetas/update/:id':    'PlanetasController/update',
+  'DELETE /planetas/delete/:id': 'PlanetasController/delete',
+  'GET /planetas/:id':           'PlanetasController/detail',
+  'GET /planetas/search/:term':  'PlanetasController/search',
 
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗

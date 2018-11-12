@@ -1,5 +1,5 @@
 # may4
-Uma API que lista os planetas do Starwarks
+Uma API que lista os planetas do Starwars
 
 ## Instalação
 Tendo em vista que você já possui o nodejs, npm e o mongodb instalado
